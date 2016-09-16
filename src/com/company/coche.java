@@ -88,4 +88,15 @@ public class coche {
         this.potencia = potencia;
         this.precio = precio;
     }
+
+    @Override
+    public String toString() {
+        return "coche{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", matricula='" + matricula + '\'' +
+                ", potencia=" + potencia +
+                ", precio=" + precio +
+                '}';
+    }
 }
